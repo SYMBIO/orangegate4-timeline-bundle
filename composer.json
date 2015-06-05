@@ -1,0 +1,30 @@
+{
+    "name": "symbio/orangegate4-timeline-bundle",
+    "type": "symfony-bundle",
+    "description": "SYMBIO OrangeGateTimelineBundle",
+    "keywords": ["Admin Generator", "admin", "orangegate", "bootstrap"],
+    "homepage": "http://www.symbiodigital.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SYMBIO Developers",
+            "email": "dev@symbiodigital.com",
+            "homepage": "http://www.symbiodigital.com"
+        }
+    ],
+    "require": {
+        "sonata-project/timeline-bundle": "~2.3@dev"
+    },
+    "require-dev": {
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": { "Symbio\\OrangeGate\\TimelineBundle\\": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
